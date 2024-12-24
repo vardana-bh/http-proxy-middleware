@@ -14,7 +14,6 @@ import { Logger, Options } from './types';
  * ^1: https://github.com/winstonjs/winston#string-interpolation
  */
 const noopLogger: Logger = {
-  debug: () => {},
   info: () => {},
   warn: () => {},
   error: () => {},
